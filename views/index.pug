@@ -1,0 +1,14 @@
+html
+    head
+        title A simple login application!
+    body
+      h1 A simple login application!
+      h3 Login Form!
+      form(action='/login',method='post')
+             label(for='username') username:
+                input(id='username',type='text',value='',name='username')
+             br
+             label(for='password') password:
+                input(id='password',type='password',value='',name='password')
+             br
+             input(type='submit',value='Login')
